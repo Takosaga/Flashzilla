@@ -14,6 +14,8 @@
 		A5B712B1247355AE004DFEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B712B0247355AE004DFEBB /* Assets.xcassets */; };
 		A5B712B4247355AE004DFEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B712B3247355AE004DFEBB /* Preview Assets.xcassets */; };
 		A5B712B7247355AE004DFEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B712B5247355AE004DFEBB /* LaunchScreen.storyboard */; };
+		A5B712BF24788F87004DFEBB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B712BE24788F87004DFEBB /* Card.swift */; };
+		A5B712C124789090004DFEBB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B712C024789090004DFEBB /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A5B712B3247355AE004DFEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5B712B6247355AE004DFEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5B712B8247355AE004DFEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B712BE24788F87004DFEBB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A5B712C024789090004DFEBB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		A5B712A6247355AC004DFEBB /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
+				A5B712C024789090004DFEBB /* CardView.swift */,
 				A5B712A7247355AC004DFEBB /* AppDelegate.swift */,
 				A5B712A9247355AC004DFEBB /* SceneDelegate.swift */,
 				A5B712AE247355AC004DFEBB /* ContentView.swift */,
+				A5B712BE24788F87004DFEBB /* Card.swift */,
 				A5B712B0247355AE004DFEBB /* Assets.xcassets */,
 				A5B712B5247355AE004DFEBB /* LaunchScreen.storyboard */,
 				A5B712B8247355AE004DFEBB /* Info.plist */,
@@ -151,7 +157,9 @@
 			files = (
 				A5B712AD247355AC004DFEBB /* Flashzilla.xcdatamodeld in Sources */,
 				A5B712A8247355AC004DFEBB /* AppDelegate.swift in Sources */,
+				A5B712BF24788F87004DFEBB /* Card.swift in Sources */,
 				A5B712AF247355AC004DFEBB /* ContentView.swift in Sources */,
+				A5B712C124789090004DFEBB /* CardView.swift in Sources */,
 				A5B712AA247355AC004DFEBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
